@@ -1,9 +1,9 @@
 # CHR_pnuemonia
-##### For leaner how to do cnn with CHR_pnuemonia with CHR
+##### 프로젝트 명 : CHR_pnuemonia with CNN
+##### 프로젝트 기간 : 2022.07
+##### 개발환경 : Colab
 ##### Framework : Keras
-##### model : CNN
-##### dataset : kaggle
-##### https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+##### dataset : kaggle(https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 ##### 프로젝트를 진행한 이유:
 ##### CXR는 병원에서 가장 많이 시행되는 촬영술이라 할 수 있을 정도로 많은 촬영비율을 가지고 있다. 또, cardio 계 혹은 pulmonary 계 질환의 진행 상황을 확인하기 위해 매우 중요한 의학적 근거이다. 따라서 CXR를 딥러닝으로 분석하기 위한 프로젝트를 진행하였다.
 프로젝트를 진행하면서 느낀 점:
