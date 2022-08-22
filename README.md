@@ -1,5 +1,5 @@
 # CHR_pnuemonia
-##### 프로젝트 명 : CHR_pnuemonia with CNN
+##### 프로젝트 요약 : CHR(chest X-ray)data 와 CNN을 활용한 pnuemonia dectection
 ##### 프로젝트 기간 : 2022.07
 ##### 개발환경 : Colab
 ##### Framework : Keras

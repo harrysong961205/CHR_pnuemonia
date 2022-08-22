@@ -75,8 +75,8 @@ cnn.add(MaxPooling2D(pool_size = (2, 2)))
 cnn.add(Flatten())
 
 # Fully Connected Layers
-cnn.add(Dense(activation = 'relu', units = 256))
-cnn.add(Dense(activation = 'relu', units = 256))
+for a in range(5):
+    cnn.add(Dense(activation = 'relu', units = 128))
 cnn.add(Dense(activation = 'sigmoid', units = 1))
 
 # Compile the Neural network
@@ -113,7 +113,7 @@ cnn.summary()
 
 cnn_model = cnn.fit_generator(training_set,
                          steps_per_epoch = 163,
-                         epochs = 1,
+                         epochs = 200,
                          validation_data = validation_generator,
                          validation_steps = 624)
 
